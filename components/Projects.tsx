@@ -11,7 +11,7 @@ export default function Projects() {
 
         <div className="space-y-32">
 
-          {/* Project 1: Ava - AI Assistant */}
+          {/* Project 1: Rivaa - Discord Music Bot */}
           <div className="group grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-center">
             <div className="lg:col-span-7 relative perspective-1000 reveal-on-scroll delay-100">
               <div className="absolute inset-0 bg-gradient-to-r from-orange-500/10 to-amber-500/10 blur-[80px] rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-700"></div>
@@ -62,7 +62,7 @@ export default function Projects() {
 
                   {/* Overlay Buttons for Ava */}
                   <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px] opacity-0 group-hover:opacity-100 transition-all duration-300 flex items-center justify-center gap-3">
-                    <a href="https://github.com/saraansx/Ava" target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 bg-black/40 backdrop-blur-md border border-white/20 text-white text-xs font-medium rounded-full transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 delay-75 hover:bg-white/10 hover:scale-105 active:scale-95 flex items-center gap-2 hover:border-white/40">
+                    <a href="https://github.com/WarriorOGZzZ/rivaamusixoolp" target="_blank" rel="noopener noreferrer" className="px-5 py-2.5 bg-black/40 backdrop-blur-md border border-white/20 text-white text-xs font-medium rounded-full transform translate-y-4 group-hover:translate-y-0 transition-all duration-300 delay-75 hover:bg-white/10 hover:scale-105 active:scale-95 flex items-center gap-2 hover:border-white/40">
                       <Code2 className="w-3.5 h-3.5" /> View Source
                     </a>
                   </div>
@@ -80,7 +80,7 @@ export default function Projects() {
               </div>
               <h3 className="text-3xl font-medium text-white mb-4 group-hover:text-shine transition-all">Ava</h3>
               <p className="text-neutral-400 leading-relaxed mb-8 text-sm">
-                AVA is an advanced AI personal assistant using OpenRouter for powerful cloud models and Ollama for fast, private local inference. It’s built to be flexible, efficient, and developer-friendly.
+                Rivaa Is A Advance Quality Music Discord Bot , Which Supports 22+ Platform's With A Qualified Music With Spotify Link And Playlist And On Time Lyrics System In Discord.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-3 text-xs text-neutral-400">
@@ -105,4 +105,5 @@ export default function Projects() {
     </section>
   )
 }
+
 
