@@ -32,8 +32,8 @@ export default function Hero() {
             <Code2 className="w-4 h-4 text-neutral-500 group-hover:text-white transition-colors" />
             View Projects
           </a>
-          <a href="https://github.com/WarriorOGZz" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-3.5 bg-transparent border border-transparent hover:border-white/10 hover:bg-white/[0.02] text-neutral-500 hover:text-white font-medium text-xs rounded-lg transition-all duration-300 ease-out hover:scale-105 active:scale-95">
-            github.com/WarriorOGZz
+          <a href="https://github.com/WarriorOGZzZ" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-3.5 bg-transparent border border-transparent hover:border-white/10 hover:bg-white/[0.02] text-neutral-500 hover:text-white font-medium text-xs rounded-lg transition-all duration-300 ease-out hover:scale-105 active:scale-95">
+            github.com/WarriorOGZzZ
           </a>
         </div>
 
@@ -72,4 +72,5 @@ export default function Hero() {
     </main>
   )
 }
+
 
