@@ -76,18 +76,18 @@ export default function Projects() {
                 <div className="w-10 h-10 rounded-full bg-orange-500/10 flex items-center justify-center border border-orange-500/20">
                   <Layout className="w-5 h-5 text-orange-500" />
                 </div>
-                <span className="text-[11px] font-mono text-orange-400 uppercase tracking-widest">AI Personal Assistant</span>
+                <span className="text-[11px] font-mono text-orange-400 uppercase tracking-widest">Discord Music & Utility Bot</span>
               </div>
-              <h3 className="text-3xl font-medium text-white mb-4 group-hover:text-shine transition-all">Ava</h3>
+              <h3 className="text-3xl font-medium text-white mb-4 group-hover:text-shine transition-all">Rivaa</h3>
               <p className="text-neutral-400 leading-relaxed mb-8 text-sm">
-                Rivaa Is A Advance Quality Music Discord Bot , Which Supports 22+ Platform's With A Qualified Music With Spotify Link And Playlist And On Time Lyrics System In Discord.
+                Rivaa is a high-quality Discord music bot supporting 22+ platforms with Spotify playlists, fast playback, and real-time lyrics.
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-center gap-3 text-xs text-neutral-400">
-                  <Check className="w-4 h-4 text-white" /> OpenRouter Cloud Models
+                  <Check className="w-4 h-4 text-white" /> NodeJs
                 </li>
                 <li className="flex items-center gap-3 text-xs text-neutral-400">
-                  <Check className="w-4 h-4 text-white" /> Private Local Inference (Ollama)
+                  <Check className="w-4 h-4 text-white" /> Typescript
                 </li>
               </ul>
               <div className="flex flex-wrap gap-2">
@@ -105,5 +105,6 @@ export default function Projects() {
     </section>
   )
 }
+
 
 
