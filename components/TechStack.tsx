@@ -112,7 +112,7 @@ function LocationCard({ delay }: { delay?: string }) {
       </div>
       <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black via-black/80 to-transparent">
         <div className="text-[11px] font-mono text-neutral-400 mb-1">TIMEZONE: IST</div>
-        <div className="text-sm font-medium text-white">Kolkata, West Bengal</div>
+        <div className="text-sm font-medium text-white">Uttarpradesh , India</div>
       </div>
     </div>
   )
@@ -147,4 +147,5 @@ function BackendCard({ delay }: { delay?: string }) {
     </div>
   )
 }
+
 
