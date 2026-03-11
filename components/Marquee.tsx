@@ -1,18 +1,33 @@
 'use client'
 
-import { FileJson, Triangle, Database, Server, Wind, Brain, Cpu, Bot, FileCode, Code2, Coffee, Smartphone, Atom } from 'lucide-react'
+import { 
+FileJson,
+FileCode,
+Code2,
+Database,
+Server,
+Cpu,
+Bot,
+Wind,
+Coffee,
+Triangle,
+Atom
+} from 'lucide-react'
 
 const techItems = [
-  { icon: FileJson, name: 'Python' },
   { icon: FileCode, name: 'JavaScript' },
   { icon: Code2, name: 'TypeScript' },
-  { icon: Coffee, name: 'Java' },
-  { icon: Smartphone, name: 'Kotlin' },
-  { icon: Smartphone, name: 'Dart' },
+  { icon: Server, name: 'Node.js' },
+  { icon: Bot, name: 'Discord.js' },
+  { icon: FileJson, name: 'Python' },
   { icon: Database, name: 'MongoDB' },
-  { icon: Triangle, name: 'NextJS' },
-  { icon: Cpu, name: 'TensorFlow' },
+  { icon: Database, name: 'PostgreSQL' },
+  { icon: Cpu, name: 'Redis' },
+  { icon: Server, name: 'REST API' },
+  { icon: Triangle, name: 'Next.js' },
   { icon: Atom, name: 'React' },
+  { icon: Wind, name: 'TailwindCSS' },
+  { icon: Coffee, name: 'Java (Lavalink)' },
 ]
 
 export default function Marquee() {
@@ -23,9 +38,14 @@ export default function Marquee() {
           {[...techItems, ...techItems].map((item, index) => {
             const Icon = item.icon
             return (
-              <div key={index} className="flex items-center gap-3 opacity-30 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+              <div
+                key={index}
+                className="flex items-center gap-3 opacity-30 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-500"
+              >
                 <Icon className="w-5 h-5" />
-                <span className="font-medium text-lg tracking-tight">{item.name}</span>
+                <span className="font-medium text-lg tracking-tight">
+                  {item.name}
+                </span>
               </div>
             )
           })}
@@ -34,4 +54,3 @@ export default function Marquee() {
     </section>
   )
 }
-
