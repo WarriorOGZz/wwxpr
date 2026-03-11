@@ -46,7 +46,7 @@ export default function Contact() {
                 type="email"
                 name="email"
                 required
-                placeholder="your@email.com"
+                placeholder="ujjwalsingh@example.com"
                 className="w-full bg-[#0a0a0a] border border-white/10 rounded-lg px-4 py-3 text-xs text-white placeholder-neutral-600 focus:outline-none focus:border-orange-500/50 focus:ring-1 focus:ring-orange-500/50 transition-all"
               />
             </div>
@@ -106,4 +106,5 @@ export default function Contact() {
       </div>
     </section>
   )
+
 }
